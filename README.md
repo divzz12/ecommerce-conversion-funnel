@@ -25,7 +25,7 @@ The primary mobile application experienced a high drop-off rate between cart add
 
 ## 📊 Key Insights & Visualizations
 
-![Conversion Funnel Dashboard](dashboards/tableau_dashboard.png)
+![Conversion Funnel Dashboard](dashboards/photo.png)
 
 1. **Cart-to-Checkout Bottleneck:** High drop-off was concentrated almost entirely at the final payment step on mobile devices (85% drop-off on mobile vs 15% on desktop).
 2. **Time-Based Pattern:** Gateway timeout spikes occurred almost exclusively during high-traffic evening hours (7:00 PM – 10:00 PM) as latency exceeded 400ms.
