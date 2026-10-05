@@ -39,4 +39,3 @@ The primary mobile application experienced a high drop-off rate between cart add
 
 ---
 
-## 📂 Repository Structure
