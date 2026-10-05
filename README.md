@@ -1,5 +1,3 @@
-# ecommerce-conversion-funnel
-Short summary of the project
 # E-Commerce Conversion Funnel Analysis
 
 ![Tech Stack](https://img.shields.io/badge/Stack-Python%20%7C%20SQL%20%7C%20Tableau-blue)
@@ -25,10 +23,13 @@ The primary mobile application experienced a high drop-off rate between cart add
 
 ---
 
-## 📊 Key Insights Discovered
-1. **Cart-to-Checkout Bottleneck:** High drop-off was concentrated almost entirely at the final payment step on mobile devices.
-2. **Time-Based Pattern:** Drop-offs spiked sharply during high-traffic evening hours (7:00 PM – 10:00 PM).
-3. **Root Cause:** Isolated a technical mobile payment gateway timeout bug occurring exclusively during high-traffic hours.
+## 📊 Key Insights & Visualizations
+
+![Conversion Funnel Dashboard](dashboards/tableau_dashboard.png)
+
+1. **Cart-to-Checkout Bottleneck:** High drop-off was concentrated almost entirely at the final payment step on mobile devices (85% drop-off on mobile vs 15% on desktop).
+2. **Time-Based Pattern:** Gateway timeout spikes occurred almost exclusively during high-traffic evening hours (7:00 PM – 10:00 PM) as latency exceeded 400ms.
+3. **Root Cause:** Isolated a technical mobile payment gateway timeout bug occurring under high concurrent server load.
 
 ---
 
